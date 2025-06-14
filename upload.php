@@ -1,5 +1,5 @@
 <?php
-$secret_key = "MY_SECRET_KEY"; // match this with secret_upload.html
+$secret_key = "Vidz_secret_15"; // match this with secret_upload.html
 
 if ($_GET['key'] !== $secret_key) {
   http_response_code(403);
